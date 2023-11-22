@@ -29,5 +29,7 @@ I also noticed that they both shared a uniqueness in the dataset, as they both h
 The first model I implemented was a multiple Regression Model after utilizing a standard scaler to normalize the values within the dataset. I then followed with a random forest classifier.
 
 ### Results
-Both models had an accuracy at about 79% which indicates consistency with predictiion,
-to be fair, it 
+- Both models had an accuracy at about 79% which indicates consistency with predictiion,
+- The recall for both models is the same at approximately 63.3%. Recall,  which indicates the ability of the model to correctly identify positive instances.
+- The F1 score for both models is aproximately 65.5% which is a combination of precision and recall score.
+In  conclusion Both models have a balanced performance with similar accuracy, recall, and F1-score however better fitting and more testing could provide better results
