@@ -25,6 +25,7 @@ The step involved addressing outliers, normalizing the data and handling the zer
 There were 3 columns with relatively small  amounts of zero values, so the rows containing the values were removed from the dataset. 
 I decided to further analyze the Insulin and Skin thickness columns since they both had zero values within the triple digits. With consideration to the dataset, and after reviewing the plairplot, violin plots and overall impact on the data, I determined that both columns were to important to outright remove. Considering that both were heavily correlated with each other and exhibited and positive correlation.
 I also noticed that they both shared a uniqueness in the dataset, as they both had similar zero values per patient. So, by eliminating the entries that had zero values of Insulin (the metric with the most zero values) I effectively eliminated all remaining zero values from the dataset.  Once the dataset was normalized, I then opted remove the pregnancies column entirely as it proved inconsequential to the dataset. 
+Sidenote: I also considered using a regression model to fill in the missing values, but felt it might be outside the scope of this excercise.
 ### Step 3 Training model implementation
 The first model I implemented was a multiple Regression Model after utilizing a standard scaler to normalize the values within the dataset. I then followed with a random forest classifier.
 
